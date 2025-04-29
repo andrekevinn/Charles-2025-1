@@ -1,1 +1,1 @@
-ptint ('tá difícil')
+print('calcular área do círculo')
