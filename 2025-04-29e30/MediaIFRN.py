@@ -8,6 +8,6 @@ Etapa1 = float(input('Digite a nota da Etapa1: '))
 
 Etapa2 = float(input('Digite a nota da Etapa2: '))
 
-Média = ((Etapa1 * 2) + (Etapa2 * 3)) / 5
+Média = (Etapa1 * 2 + Etapa2 * 3) / 5
 
 print(f'A Média é: {Média:.0f}')
