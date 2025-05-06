@@ -16,8 +16,8 @@ if a <= 0:
     sys.exit('Informe aceleração positiva')
 
 DS = (V * t) + (a * t**2)/2
-TV = (a * t**2)/2 + (V * t - DS)
+T = (a * T**2)/2 + (V * T - DS)
 MRUV = DS
 
 print(f' A distância DS é: {DS}')
-print(f'O tempo de viagem é: {TV}')
+print(f'O tempo de viagem é: {T}')
