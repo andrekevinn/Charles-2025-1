@@ -19,15 +19,16 @@ MRUV = DS
 
 print(f'A DS é: {DS}')
 
-# Questão 2, Desconrir o tempo de viagem T no formato hh:mm:ss
-# Converter distância de km para m -> D * = 1000
-# Converter a Velociade Inicial V de km/h para m/s -> V / = 3.6 (primeira parte)
-# T = (a * T**2)/2 + V * T - d, reescrever como equação do 2 grau e achar o delta (maior ou igual a 0) e a raiz X! 
+'''# Questão 2, Desconrir o tempo de viagem T no formato hh:mm:ss
+Converter distância de km para m -> D * = 1000
+Converter a Velociade Inicial V de km/h para m/s -> V / = 3.6 (primeira parte)
+T = (a * T**2)/2 + V * T - d, reescrever como equação do 2 grau e achar o delta (maior ou igual a 0) e a raiz X! '''
 
 D = int(input(f'Informe a disntância D em km: '))
 if D <= 0:
     sys.exit('Informe distância positiva')
 D *= 1000
+
 Delta = V**2 - 4 * a * D
 if Delta < 0:
     sys.exit('Não é posssível calcular o tempo')
