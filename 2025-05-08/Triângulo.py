@@ -25,3 +25,9 @@ if a3 <= 0:
 T = a1 + a2 + a3
 if T < 180 or T > 180:
     sys.exit('Não é um triângulo')
+if a1 == 90 or a2 == 90 or a3 == 90:
+    print('É um triângulo Retângulo.')
+elif a1 > 90 or a2 > 90 or a3 > 90:
+    print('É um triângulo Obtusângulo.')
+elif a1 < 90 or a2 < 90 or a3 < 90:
+    print('É um triângulo Acutângulo.')
