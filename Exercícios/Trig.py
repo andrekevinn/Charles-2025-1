@@ -1,6 +1,6 @@
 ''' Programa para classificar um triângulo quantos aos ângulos.
  - O programa deverá solicitar 3 ângulos inteiros positivos;
- = Para ser um triângulo, a soma dos ângulos deve ser igual a 180;
+ - Para ser um triângulo, a soma dos ângulos deve ser igual a 180;
 
  - Retângulo: possui um ângulo interno reto (igual a 90).
  - Obtusângulo: possui um ângulo interno obtuso (maior que 90).
@@ -20,14 +20,14 @@ a3 = int(input('insira o valor do ângulo 3: '))
 if a3 <= 0:
     sys.exit('informe ângulo positivo')
 
-# Triângulos 
+# Triângulos T
 
 T = a1 + a2 + a3
-if T < 180 or T > 180:
+if T != 180:
     sys.exit('Não é um triângulo')
 if a1 == 90 or a2 == 90 or a3 == 90:
     print('É um triângulo Retângulo.')
 elif a1 > 90 or a2 > 90 or a3 > 90:
     print('É um triângulo Obtusângulo.')
-elif a1 < 90 or a2 < 90 or a3 < 90:
+else:
     print('É um triângulo Acutângulo.')

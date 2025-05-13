@@ -19,3 +19,5 @@ elif x < 0 and y < 0:
     print('Está no 3º Quadrante.')
 elif x > 0 and y < 0:
     print('Está no 4º Quadrante.')
+else:
+    print('O ponto está na origem dos eixos coordenados.')

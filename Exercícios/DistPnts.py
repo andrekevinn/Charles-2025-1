@@ -13,5 +13,5 @@ yB = int(input('Insira a coordenada y do ponto B: '))
 
 # Fómrula de distância euclidiana
 
-dist = (((xB - xA) **2) + ((yB - yA) **2)) ** 0.5
+dist = (((xA - xB) **2) + ((yA - yB) **2)) ** 0.5
 print(f'A distância entre o ponto A e ponto B é: {dist:.0f}')
