@@ -1,0 +1,1 @@
+'''Programa da soma só que com potência'''
