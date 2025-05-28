@@ -4,6 +4,8 @@ try:
     n1 = int(input('Insira um número inteiro: '))
     n2 = int(input('Insira um número inteiro para multiplicar o primeiro: '))
 except ValueError: sys.exit('ERRO: Insira um valor que possa ser convertido para inteiro')
+except Exception as e:
+    sys.exit(f'ERRO{e}')
 else:
     if n1 <= 0: 
         sys.exit('ERRO: Insira um valor positivo.')
