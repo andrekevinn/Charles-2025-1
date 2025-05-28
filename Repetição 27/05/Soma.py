@@ -8,9 +8,8 @@ try:
     if n2 <= 0: 
         sys.exit('ERRO: Insira um valor positivo.')
 except ValueError: sys.exit('ERRO: Insira um valor que possa ser convertido para inteiro')
-soma = n2 + n2
 while n1 <= n2: 
-    print(f'{soma}')
-    soma += n2
+    print(f'{n1} + {n2} =  {n1 + n2}')
+    + n2
 else:
     print('fim')
