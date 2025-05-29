@@ -11,7 +11,7 @@ else:
     else:
         fat = n
         naux = n
-        while  naux <= 2:
+        while  naux >= 2:
             naux -= 1
             fat *= naux
         print(f'{n}! = {fat}.')
